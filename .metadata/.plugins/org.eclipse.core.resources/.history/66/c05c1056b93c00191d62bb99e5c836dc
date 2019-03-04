@@ -1,0 +1,26 @@
+
+package com.Testrunner;
+
+
+@RunWith(Cucumber.class)
+@CucumberOptions(features = "AUT")
+
+
+
+public class TestRr {
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+}

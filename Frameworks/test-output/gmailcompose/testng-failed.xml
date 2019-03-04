@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [gmailcompose]">
+  <test thread-count="5" name="attachsend(failed)">
+    <classes>
+      <class name="com.Gmailtestcase.sendmailattch">
+        <methods>
+          <include name="tearsdown"/>
+          <include name="Composemailattch"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.Gmailtestcase.sendmailattch -->
+    </classes>
+  </test> <!-- attachsend(failed) -->
+</suite> <!-- Failed suite [gmailcompose] -->

@@ -1,0 +1,31 @@
+package com.practice;
+
+import java.util.Scanner;
+
+public class arry {
+
+	
+	private static Scanner scanner = new Scanner(System.in);
+	
+	public static void main(String[] args) {
+		
+	
+		
+		
+		
+		
+		
+
+	}
+	
+	public static int[] getintegers(int numbers)
+	{
+		int values = new int[values];
+		System.out.println("Enter the array numbers:");
+		for(int i =0;i<values.length;i++)
+		{
+			values[i] = scanner.nextInt();
+		}
+		return values;
+	}
+}

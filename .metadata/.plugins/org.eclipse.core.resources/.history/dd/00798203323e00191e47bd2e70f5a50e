@@ -1,0 +1,40 @@
+package com.OhrmtestScripts;
+
+import org.testng.annotations.Test;
+
+import com.OHRMlib.Genral;
+
+public class TC_01 {
+
+	@Test
+	public void tc_01(){
+		
+		Genral g = new Genral();
+		
+		g.Setup();
+		g.Login();
+		g.verifylogin();
+		g.Tearsdown();
+
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

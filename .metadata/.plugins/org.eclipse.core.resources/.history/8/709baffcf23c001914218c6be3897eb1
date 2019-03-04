@@ -1,0 +1,7 @@
+<suite name = "gmailcompose">
+<test name = "attachsend">
+<classes>
+<class name="com.Gmailtestcase.sendmailattch"/>
+</classes>
+</test>
+</suite>

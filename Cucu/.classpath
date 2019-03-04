@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/Syed/Desktop/Frameworks/Cucu/Library/activation-1.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Syed/Desktop/Frameworks/Cucu/Library/commons-codec-1.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Syed/Desktop/Frameworks/Cucu/Library/commons-collections4-4.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Syed/Desktop/Frameworks/Cucu/Library/commons-compress-1.18.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Syed/Desktop/Frameworks/Cucu/Library/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Syed/Desktop/Frameworks/Cucu/Library/commons-math3-3.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Syed/Desktop/Frameworks/Cucu/Library/curvesapi-1.05.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Syed/Desktop/Frameworks/Cucu/Library/jaxb-api-2.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Syed/Desktop/Frameworks/Cucu/Library/jaxb-core-2.3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Syed/Desktop/Frameworks/Cucu/Library/jaxb-impl-2.3.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Syed/Desktop/Frameworks/Cucu/Library/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Syed/Desktop/Frameworks/Cucu/Library/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Syed/Desktop/Frameworks/Cucu/Library/poi-4.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Syed/Desktop/Frameworks/Cucu/Library/poi-examples-4.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Syed/Desktop/Frameworks/Cucu/Library/poi-excelant-4.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Syed/Desktop/Frameworks/Cucu/Library/poi-ooxml-4.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Syed/Desktop/Frameworks/Cucu/Library/poi-ooxml-schemas-4.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Syed/Desktop/Frameworks/Cucu/Library/poi-scratchpad-4.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Syed/Desktop/Frameworks/Cucu/Library/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Syed/Desktop/Frameworks/Cucu/Library/xmlbeans-3.0.2.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="lib" path="C:/Users/Syed/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5.jar" sourcepath="C:/Users/Syed/.m2/repository/info/cukes/cucumber-core/1.2.5/cucumber-core-1.2.5-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="info.cukes"/>
+			<attribute name="maven.artifactId" value="cucumber-core"/>
+			<attribute name="maven.version" value="1.2.5"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/Syed/.m2/repository/info/cukes/cucumber-junit/1.2.5/cucumber-junit-1.2.5.jar" sourcepath="C:/Users/Syed/.m2/repository/info/cukes/cucumber-junit/1.2.5/cucumber-junit-1.2.5-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="test" value="true"/>
+			<attribute name="maven.groupId" value="info.cukes"/>
+			<attribute name="maven.artifactId" value="cucumber-junit"/>
+			<attribute name="maven.version" value="1.2.5"/>
+			<attribute name="maven.scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

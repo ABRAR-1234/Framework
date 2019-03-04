@@ -1,0 +1,34 @@
+package com.OHRMlib;
+
+public class Global {
+
+	
+	public String Loginname = "txtUserName";
+	
+	public String password = "txtPassword";
+	
+	public String Login = "Submit";
+	
+	public String welcometext = "//*[@id=\"option-menu\"]/li[1]";
+	
+	public String PIM - "PIM";
+	
+	public String AddEmployee = "Add Employee";
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

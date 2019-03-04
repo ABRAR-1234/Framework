@@ -1,0 +1,7 @@
+<suite name = "LoginTest">
+<test name = "LogTest">
+<classes>
+<class name="com.Keyworddriven.LoginTest"/>
+</classes>
+</test>
+</suite>

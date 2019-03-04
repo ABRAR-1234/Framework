@@ -1,0 +1,26 @@
+package com.New;
+
+public class Bankaccount {
+	
+	private String AccountNumber;
+	private double balance;
+	private String CustomerName;
+	private String email;
+	private String PhoneNumber;
+
+    public void setBalance(double balance) {
+    	this.balance = balance;
+    }
+    
+    public void setAccount(String accnum) {
+    	this.AccountNumber = accnum;
+    }
+    
+    public void setCustomerName(String CustomerName) {
+    	this.CustomerName = CustomerName;
+    }
+    
+    public void setPhoneNumber(double PhoneNumber) {
+    	this.PhoneNumber = PhoneNumber;
+    }
+}

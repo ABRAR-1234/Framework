@@ -1,0 +1,45 @@
+package com.OHRMlib;
+
+import org.openqa.selenium.WebDriver;
+
+public class General {
+	
+	WebDriver driver = null;
+	
+	String URL = "";
+	
+	public void Setup() {
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+}

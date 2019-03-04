@@ -1,0 +1,32 @@
+package com.OHRM_login;
+
+import org.openqa.selenium.WebDriver;
+
+public class GmailCompose {
+
+	public static void main(String[] args) {
+	
+		
+		WebDriver driver = null;
+		
+        String Url = "http://gmail.com";
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+
+	}
+
+}

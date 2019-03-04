@@ -1,0 +1,57 @@
+package com.Gmailtestcase;
+
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
+
+import com.mailattach.BaseTest;
+import com.testPages.Password;
+import com.testPages.UsernamePage;
+
+public class sendmailattch extends BaseTest{
+
+	@Test
+	public void Composemailattch() {
+		
+		UsernamePage usr = PageFactory.initElements(driver, UsernamePage.class);
+		
+		usr.Username("sye.abr@gmail.com");
+		
+		usr.Next();
+		
+		Password pss = PageFactory.initElements(driver, Password.class);
+		
+		pss.passwd("*****");
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

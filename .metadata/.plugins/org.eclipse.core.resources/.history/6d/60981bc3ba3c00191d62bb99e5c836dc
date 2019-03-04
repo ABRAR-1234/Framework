@@ -1,0 +1,23 @@
+
+package com.Testrunner;
+
+ @RunWith(Cucumber.class)
+
+
+public class TestRr {
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+}

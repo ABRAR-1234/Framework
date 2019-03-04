@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [hybframework]">
+  <test thread-count="5" name="OHRMLoginAdd(failed)">
+    <classes>
+      <class name="com.OhrmtestScripts.TC_02">
+        <methods>
+          <include name="LoginaddEmployee"/>
+        </methods>
+      </class> <!-- com.OhrmtestScripts.TC_02 -->
+    </classes>
+  </test> <!-- OHRMLoginAdd(failed) -->
+</suite> <!-- Failed suite [hybframework] -->

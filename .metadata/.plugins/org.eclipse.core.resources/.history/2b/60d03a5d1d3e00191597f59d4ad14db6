@@ -1,0 +1,26 @@
+package com.OHRMlib;
+
+public class Global {
+
+	
+	public String Loginname = "txtUserName";
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

@@ -1,0 +1,51 @@
+package com.Stepdefinition;
+
+import org.openqa.selenium.WebDriver;
+
+import cucumber.api.java.en.Given;
+import cucumber.api.java.en.Then;
+import cucumber.api.java.en.When;
+
+public class LoginTest {
+
+	@Given("^To open firefox browser and launch URL$")
+	public void To_open_firefox_browser_and_launch_URL() throws Throwable {
+	    
+		WebDriver driver = null;
+		
+		String Url = "http://localhost/orangehrm-2.6/login.php";
+		
+		System.setProperty("webdriver.chrome.driver", "")
+		
+		
+		
+		
+	}
+
+	@When("^Enter valid username and password$")
+	public void Enter_valid_username_and_password() throws Throwable {
+	    // Express the Regexp above with the code you wish you had
+	
+	}
+
+	@Then("^Close the browser$")
+	public void Close_the_browser() throws Throwable {
+	    // Express the Regexp above with the code you wish you had
+	    
+	}
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

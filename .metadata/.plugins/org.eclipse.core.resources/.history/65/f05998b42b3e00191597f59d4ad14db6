@@ -1,0 +1,45 @@
+package com.OhrmtestScripts;
+
+import com.OHRMlib.Genral;
+
+public class TC_02 {
+
+	public void LoginaddEmployee() {
+		
+		Genral r = new Genral();
+		
+		r.Setup();
+		r.Login();
+		r.verifylogin();
+		r.AddEmployee();
+		r.getEmpcodeSave();
+		r.VerifyAddEmployee();
+		r.Tearsdown();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

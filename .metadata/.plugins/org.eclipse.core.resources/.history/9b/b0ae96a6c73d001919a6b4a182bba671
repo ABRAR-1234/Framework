@@ -1,0 +1,72 @@
+package com.testPages;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class Inbox {
+
+ @FindBy(xpath= "//div[text()='Compose']")         ////*[@id=\":k7\"]/div/div  
+ WebElement compose;
+ 
+ public void Compose()
+ {
+	 compose.click();
+ }
+	
+ @FindBy(xpath = "//textarea[@name = 'to']")
+ WebElement To;
+ 
+ public void to(String to) {
+	 
+	 To.sendKeys(to);
+ }
+	
+ @FindBy(xpath = "//input[@name = 'subjectbox' and @placeholder = 'Subject']")
+ WebElement sub;
+ 
+ public void Subject(String Subj) {
+	 
+	 To.sendKeys(Subj);
+ }
+	
+ @FindBy(xpath = "//*[@id=\\\":rg\\\"]")
+ WebElement attch;
+ 
+ 
+ public void attach() {
+	 attch.click();
+ }
+ 
+ @FindBy(xpath = "//*[@id=\":po\"]")
+ WebElement Send;
+ 
+ public void Send() {
+	 Send.click();//
+ }
+ 
+ 
+ @FindBy(xpath = "//*[@id=\"gb\"]/div[2]/div[3]/div/div[2]/div/a/span")
+ WebElement label;
+ 
+ public void Label() {
+	 label.click();
+ }
+ 
+ 
+ @FindBy(linkText = "Sign out")
+ WebElement logout;
+ 
+ public void SignOut() {
+	 logout.click(); 
+ }
+ 
+ 
+ 
+	
+	
+	
+	
+	
+	
+	
+}

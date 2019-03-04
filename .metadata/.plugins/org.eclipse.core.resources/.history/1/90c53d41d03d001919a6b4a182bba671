@@ -1,0 +1,58 @@
+package com.wndow;
+
+import java.util.Set;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class windhand {
+	
+	public static void main(String[] args)
+	{
+		WebDriver driver = null;
+		
+		String Url = "http://www.gmail.com";
+		
+		System.setProperty("webdriver.chrome.driver", "./Driverfiles/chromedriver.exe");
+        driver = new ChromeDriver();
+        driver.get(Url);
+        driver.manage().window().maximize();
+        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        
+        
+        String Home = driver.getWindowHandle();
+        
+        System.out.println(Home);
+		
+		driver.findElement(By.linkText("Help")).click();
+		
+		 Set<String> help = driver.getWindowHandles();
+		
+		 System.out.println("The no.of handles:"+help);
+		 
+		 for(String he:help)
+		 {
+			 if(!he.equals(Home))
+			 {
+				 driver.switchTo().window(he);
+				 
+				 System.out.println(driver.getTitle());
+				 
+				 WebElement Createaccount = driver.findElement(By.linkText("Create a Google Account"));
+				 
+				 String CreateAcccountText = Createaccount.getText();
+				 
+				 System.out.println(CreateAcccountText);
+			 }
+			 
+			 
+		 }
+		
+		
+		
+		
+	}
+}

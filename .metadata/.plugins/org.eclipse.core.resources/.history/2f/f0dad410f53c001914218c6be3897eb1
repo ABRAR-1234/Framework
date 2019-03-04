@@ -1,0 +1,24 @@
+package com.testPages;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class UsernamePage {
+
+	@FindBy(xpath="//*[@id=\"identifierId\"]")
+	WebElement usrname;
+	
+	public void Username(String username)
+	{
+	usrname.sendKeys(username);
+	}
+	
+	@FindBy(xpath = "//*[@id=\"identifierNext\"]/div[2]")
+	WebElement next;
+	
+	public void Next() {
+		next.click();
+	}
+	
+	
+}

@@ -1,0 +1,36 @@
+package com.mailattach;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class BaseTest {
+
+	WebDriver driver = null;
+	
+	String URL = "www.gmail.com";
+	
+	@BeforeTest
+	public void setup() {
+		
+		System.setProperty("webdrivr.chrome.driver", "./Driverfiles/chromedriver.exe");
+		
+		driver = new ChromeDriver();
+		
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

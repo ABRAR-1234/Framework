@@ -1,0 +1,31 @@
+package com.New;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Bankexec extends Bankaccount {
+
+	public static void main(String[] args) {
+	   Bankaccount account = new Bankaccount();
+	   
+
+	   account.setBalance(1024.00);
+	   account.setAccount("36111");
+	   account.setemail("sye.abr");
+	   account.setCustomerName("Syed Abrar");
+	   account.setPhoneNumber("9962605307");
+	   
+	   
+	   System.out.println(account.getAccount());
+	   System.out.println(account.getBalance());
+	   System.out.println(account.getemail());
+	   System.out.println(account.getCustomerName());
+	   System.out.println(account.getPhoneNumber());
+	   
+	   account.Deposit(1234.23);
+	   account.withdraw(265);
+	   
+
+	}
+
+}

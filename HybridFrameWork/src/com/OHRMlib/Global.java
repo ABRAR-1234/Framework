@@ -1,0 +1,45 @@
+package com.OHRMlib;
+
+public class Global {
+
+	
+	public String Loginname = "txtUserName";
+	
+	public String password = "txtPassword";
+	
+	public String Login = "Submit";
+	
+	public String welcometext = "//*[@id=\"option-menu\"]/li[1]";
+	
+	public String PIM = "PIM";
+	
+	public String AddEmployee = "Add Employee";
+	
+	public String Code = "//*[@name = 'txtEmployeeId' and @id='txtEmployeeId']";
+	
+	public String Lastname = "//*[@name = 'txtEmpLastName' and @id='txtEmpLastName']";
+	
+	public String firstname = "//*[@name = 'txtEmpFirstName' and @id='txtEmpFirstName']";
+	
+	public String Middlename = "//*[@name = 'txtEmpMiddleName' and @id='txtEmpMiddleName']";
+	
+	public String Choosefile = "//*[@name = 'photofile' and @id='photofile']";
+	
+	public String Save = "//*[@type='button' and @title = 'Save']";
+	
+	public String Verifycode = "//*[@name = 'txtEmployeeId' and @id='txtEmployeeId']";
+	
+	public String Logout = "Logout";
+	
+	public String Invalidlogin = "//*[@id=\"Table_01\"]/tbody/tr[1]/td[2]/table/tbody/tr[5]/td[2]/strong/font";
+	
+	
+	
+	;
+	
+	
+	
+	
+	
+	
+}

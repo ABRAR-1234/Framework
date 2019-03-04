@@ -1,0 +1,54 @@
+package com.Veh;
+
+public class Vehicle {
+	
+    private String type;
+    private int body;
+    private int wheels;
+    private int tyres;
+    
+    
+	public Vehicle(String type, int body, int wheels, int tyres) {
+		super();
+		this.type = type;
+		this.body = body;
+		this.wheels = wheels;
+		this.tyres = tyres;
+	}
+
+	
+	public void move() {
+		System.out.println("Moving");
+	}
+	
+	
+	
+
+	public String getType() {
+		return type;
+	}
+
+
+	public int getBody() {
+		return body;
+	}
+
+
+	public int getWheels() {
+		return wheels;
+	}
+
+
+
+	public int getTyres() {
+		return tyres;
+	}
+
+
+
+    
+    
+	
+	
+
+}

@@ -1,0 +1,72 @@
+package com.testPages;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+public class Inbox {
+
+ @FindBy(xpath = "//*[@id=\":kg\"]/div/div")
+ WebElement compose;
+ 
+ public void Compose()
+ {
+	 compose.click();
+ }
+	
+ @FindBy(xpath = "//*[@id=\":qi\"]")
+ WebElement To;
+ 
+ public void to(String to) {
+	 
+	 To.sendKeys(to);
+ }
+	
+ @FindBy(xpath = "//*[@id=\":q0\"]")
+ WebElement sub;
+ 
+ public void Subject(String Subj) {
+	 
+	 To.sendKeys(Subj);
+ }
+	
+ @FindBy(xpath = "//*[@id=\":ri\"]")
+ WebElement attch;
+ 
+ 
+ public void attach() {
+	 attch.click();
+ }
+ 
+ @FindBy(xpath = "//*[@id=\":po\"]")
+ WebElement Send;
+ 
+ public void Send() {
+	 Send.click();
+ }
+ 
+ 
+ @FindBy(xpath = "//*[@id=\"gb\"]/div[2]/div[3]/div/div[2]/div/a/span")
+ WebElement label;
+ 
+ public void Label() {
+	 label.click();
+ }
+ 
+ 
+ @FindBy(xpath = "//*[@id=\"gb_71\"]")
+ WebElement logout;
+ 
+ public void SignOut() {
+	 logout.click(); 
+ }
+ 
+ 
+ 
+	
+	
+	
+	
+	
+	
+	
+}

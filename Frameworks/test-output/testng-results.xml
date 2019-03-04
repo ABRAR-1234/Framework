@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="gmailcompose" duration-ms="73209" started-at="2019-03-03T15:36:46Z" finished-at="2019-03-03T15:37:59Z">
+    <groups>
+    </groups>
+    <test name="attachsend" duration-ms="73209" started-at="2019-03-03T15:36:46Z" finished-at="2019-03-03T15:37:59Z">
+      <class name="com.Gmailtestcase.sendmailattch">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.Gmailtestcase.sendmailattch@4b9e13df]" name="setup" is-config="true" duration-ms="9845" started-at="2019-03-03T15:36:46Z" finished-at="2019-03-03T15:36:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Composemailattch()[pri:0, instance:com.Gmailtestcase.sendmailattch@4b9e13df]" name="Composemailattch" duration-ms="60822" started-at="2019-03-03T15:36:56Z" finished-at="2019-03-03T15:37:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Composemailattch -->
+        <test-method status="PASS" signature="tearsdown()[pri:0, instance:com.Gmailtestcase.sendmailattch@4b9e13df]" name="tearsdown" is-config="true" duration-ms="2498" started-at="2019-03-03T15:37:57Z" finished-at="2019-03-03T15:37:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearsdown -->
+      </class> <!-- com.Gmailtestcase.sendmailattch -->
+    </test> <!-- attachsend -->
+  </suite> <!-- gmailcompose -->
+</testng-results>

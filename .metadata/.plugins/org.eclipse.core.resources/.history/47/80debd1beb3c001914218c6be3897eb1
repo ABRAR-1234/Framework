@@ -1,0 +1,67 @@
+package com.Gmailtestcase;
+
+import org.openqa.selenium.support.PageFactory;
+import org.testng.annotations.Test;
+
+import com.mailattach.BaseTest;
+import com.testPages.Inbox;
+import com.testPages.Password;
+import com.testPages.UsernamePage;
+
+public class sendmailattch extends BaseTest{
+
+	@Test
+	public void Composemailattch() throws java {
+		
+		UsernamePage usr = PageFactory.initElements(driver, UsernamePage.class);
+		
+		usr.Username("sye.abr@gmail.com");
+		
+		usr.Next();
+		
+		Password pss = PageFactory.initElements(driver, Password.class);
+		
+		pss.passwd("*****");
+		
+		pss.nxt();
+		
+		Inbox inb = PageFactory.initElements(driver, Inbox.class);
+		
+		inb.Compose();
+		
+		inb.to("bharatlokhande394@gmail.com");
+		
+		inb.Subject("File Send");
+		
+		inb.attach();
+		
+		Thread.sleep(3000);
+		
+		java.lang.Runtime.getRuntime().exec("./autoit/GmailAutoIt.exe");
+		
+		Thread.sleep(5000);
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

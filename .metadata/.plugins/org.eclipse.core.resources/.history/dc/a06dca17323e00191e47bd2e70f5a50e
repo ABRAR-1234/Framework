@@ -1,0 +1,13 @@
+<suite name="hybframework">
+<test name="OHRMLogin">
+<classes>
+<class name ="com.OHRMlib.Genral.TC_01"/>
+</classes>
+</test>
+
+<test name="OHRMLoginAdd">
+<classes>
+<class name ="com.OHRMlib.Genral.TC_02"/>
+</classes>
+</test>
+</suite>

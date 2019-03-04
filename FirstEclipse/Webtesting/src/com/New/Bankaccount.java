@@ -1,0 +1,83 @@
+package com.New;
+
+public class Bankaccount {
+	
+	private String AccountNumber;
+	private double balance;
+	private String CustomerName;
+	private String email;
+	private String PhoneNumber;
+
+    public void setBalance(double balance) {
+    	this.balance = balance;
+    }
+    
+    public void setAccount(String accnum) {
+    	this.AccountNumber = accnum;
+    }
+    
+    public void setCustomerName(String CustomerName) {
+    	this.CustomerName = CustomerName;
+    }
+    
+    public void setPhoneNumber(String PhoneNumber) {
+    	this.PhoneNumber = PhoneNumber;
+    }
+    
+    public void setemail(String email) {
+    	this.email = email;
+    }
+    
+    
+    
+    public double getBalance() {
+    	return this.balance;
+    	
+    }
+    
+    public String getCustomerName() {
+    	return this.CustomerName;
+    	
+    }
+    
+    public String getPhoneNumber() {
+    	return this.PhoneNumber;
+    	
+    }
+    
+    public String getemail() {
+    	return this.email;
+    	
+    }
+    
+    public String getAccount() {
+    	return this.AccountNumber;
+    	
+    }
+    
+    
+    public double Deposit(double Amt)
+    {
+      this.balance = this.balance + Amt;     
+	  return this.balance;
+    }
+    
+    
+    public double withdraw(double cash)
+    {
+    	if(this.balance > cash)
+    	{
+    		this.balance = this.balance - cash;   		
+    	}else
+    	{
+    		System.out.println("Your balance is low");
+    	}
+        return this.balance; 
+    }
+    
+    
+    
+    
+    
+    
+}

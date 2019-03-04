@@ -1,0 +1,38 @@
+package com.Veh;
+
+public class Car extends Vehicle{
+
+	private int style;
+	private int gears;
+	private int speed;
+	private String Steering;
+	
+	
+	public Car(String type, int body, int wheels, int tyres,int style,int gears,int speed,String Steering) {
+		super(type, body, wheels, tyres);
+		this.style = style;
+		this.gears = gears;
+		this.speed = speed;
+		this.Steering = Steering;
+	}
+
+	
+	
+	
+    private int move(int speed)
+    {
+    	super.move();
+		return speed; 	
+    }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}
